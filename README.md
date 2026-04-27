@@ -140,7 +140,11 @@ What makes this project original is that it goes beyond a basic line-following r
 
 Describe exactly how a user will use the project.Make it a story
 **Response:**  
-
+Its early morning in a small warehouse in smallville,trucks have just finished unloading boxes of medicines and electronics. All of them need to be sorted by the end of the day. Instead of a large automated system this warehouse uses a line follower which is nibble and cna lift heavy loads. This robot is designed for making internla transport easy and quick. 
+A worker named Rohan switches it on.The robot sits at a marked starting point on the floor, right next to a loading station. A thin black tape line runs across the warehouse floor like a guiding path, splitting into branches that lead to different zones dispatch, cold storage, packing, and returns. Rohan places items on the robot and now the robot starts to begin with a switch activted by rohan. It doesn’t need a remote control for direction. Instead, its sensors constantly read the black line beneath it. The warehouse floor becomes its map, and the line becomes its instructions.
+A forklift passes nearby. The robot pauses for a split second to stabilize its reading, then continues once the path is clear. It doesn’t get confused, because its system is simple and reliable: follow the line, correct errors instantly, keep moving.
+At one point, the path curves sharply near a storage rack. The robot slows down automatically to maintain balance, then regains speed on the straight section. The package remains steady on top. within a few minutes the robot completes its job and rohan resets it.
+the warehouse is fully sorted within hours saving time and labour
                                                   |
 
 
