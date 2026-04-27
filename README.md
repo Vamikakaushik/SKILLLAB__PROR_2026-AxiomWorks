@@ -322,24 +322,34 @@ Add a sketch with labels showing:
 
 | Component                 | Quantity | Purpose                               |
 | ------------------------- | --------:| ------------------------------------- |
-| `[ESP32]`                 | `1`      | `[Main controller]`                   |
+| `[Strike Lite]`           | `1`      | `[Main controller]`                   |
 | `[L298N Motor Driver]`    | `1`      | `[Control Motors]`                    |
-| `[BO Motors]`             | `2`      | `[Rotate wheels]`                     |
-| `[Buck Converter]`        | `1`      | `[Power ESP32]`                       |
-| `[Li Ion Battery Pack]`   | `2`      | `[Power]`                             |
-| `[Projector]`             | `1`      | `[Display obstacles]`                 |
-| `Camera (Webcam / Phone)` | `1`      | `[Tracks car position using markers]` |
+| `[DC Motors]`             | `2`      | `[Rotate wheels]`                     |
+| `[Battery Holder]`        | `1`      | `[Holds Battery]`                       |
+| `[9V Battery]`            | `2`      | `[Power]`                             |
 
 ## 8.2 Wiring Plan
+1. Power Connections:
+The battery supplies power to the motor driver and microcontroller.
+A common ground (GND) is shared between all components to ensure proper signal flow.
 
-Describe the main electrical connections.
+2. Sensor Connections:
+The IR sensors are connected to the microcontroller input pins.
+They send HIGH/LOW signals based on line detection.
 
-**Response:**  
-`The ESP32 is connected to the motor driver (L298N) using four GPIO pins (18,19; 22,23) to control motor direction (IN1, IN2, IN3, IN4). Two PWM-capable pins (ENA and ENB; 25 and 26) are connected to control the speed of each motor.
+3. Microcontroller Connections:
+Acts as the central unit.
+Receives input from sensors and sends control signals to the motor driver.
 
-The motors are connected to the output terminals of the motor driver. The motor driver is powered directly by the battery pack (higher voltage), while the ESP32 receives regulated 5V from the buck converter.
+4. Motor Driver Connections:
+Connected between the microcontroller and motors.
+Receives signals from the controller and controls motor direction and speed.
 
-All components share a common ground to ensure stable operation. The projector and camera are connected to the laptop, which handles tracking and game logic separately.`
+5. Motor Connections:
+Two DC motors are connected to the motor driver outputs.
+Left and right motors operate independently for turning.
+
+
 
 ## 8.3 Circuit Diagram
 
