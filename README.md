@@ -739,22 +739,21 @@ After initial testing, minor adjustments were made such as sensor repositioning,
 
 Describe the final version of your project.
 
-**Response:**  
+The final version of the project is a fully functional RC Line Follower robot that can automatically detect and follow a black line on a surface. It consists of a chassis, DC motors, IR sensors, a motor driver, a microcontroller, and a battery power system. The robot operates autonomously without manual control and follows predefined paths on a track using sensor-based decision-making. After multiple tests and adjustments, the system became stable and capable of consistent movement along curved and straight paths.
 
 
 ## 17.2 What Works Well
-
+ The robot successfully detects the line and follows it in real time with accurate corrections. The motor control responds properly to sensor inputs, allowing smooth turning and forward motion. The system is stable on straight paths and performs well on simple curves. The integration between hardware and code works reliably after calibration.
 
 
 ## 17.3 What Still Needs Improvement
-
+The robot sometimes struggles on very sharp turns or uneven lighting conditions. Speed consistency can vary slightly depending on battery level. More advanced features like obstacle detection or smoother PID control could improve performance. The wiring and structure could also be further refined for better durability and neatness.
 
 ## 17.4 What Changed From the Original Plan
 
 How did the project change from the initial idea?
 
-**Response:**  
-
+Originally, the project was planned as a basic line-following robot with simple movement logic. During development, improvements were made to sensor placement, motor control logic, and structural design for better stability. Some advanced features like app control or complex navigation were removed to focus on reliability. The final design became more practical and optimized for consistent real-world performance rather than added complexity.
 
 ---
 
@@ -762,50 +761,55 @@ How did the project change from the initial idea?
 
 ## 18.1 Team Reflection
 
-What did your team do well?  
-What slowed you down?  
-How well did you manage time, tasks, and responsibilities?
+What did your team do well?
+The team worked effectively by dividing tasks based on skills, which allowed parallel progress in coding, hardware assembly, and testing. Communication was consistent, and regular discussions helped solve problems quickly. Integration of all components into a working system was successfully achieved through teamwork.
 
-**Response:**  
+What slowed you down?
+The main delays occurred during debugging, especially sensor calibration and motor tuning. Small wiring errors and repeated testing cycles also slowed progress. Occasional redesign of mounting positions and waiting for components added minor delays.
+
+How well did you manage time, tasks, and responsibilities?
+Overall, time and task management were handled well using basic milestones and task division. Most responsibilities were completed on schedule, and delays were managed by reallocating work within the team. Coordination ensured that the project was completed successfully
 
 
 ## 18.2 Technical Reflection
 
 What did you learn about:
 
-- electronics,
-- coding,
-- mechanisms,
-- fabrication,
-- integration?
+Electronics:
+We learned how sensors, motor drivers, and microcontrollers interact in a working circuit, including power distribution and signal control.
 
-**Response:**  
+Coding:
+We learned how to implement real-time sensor reading and decision-making logic using simple conditional statements for motor control.
 
+Mechanisms:
+We understood how mechanical design affects movement, including wheel alignment, friction, and balance of the chassis.
 
 ## 18.3 Design Reflection
 
 What did you learn about:
 
-- designing ,
-- delight,
-- clarity,
-- physical interaction,
-- understanding,
-- iteration?
+Designing:
+We learned that simple and functional design is more effective than complex structures for reliability and ease of use.
 
-**Response:**  
+Delight:
+Seeing the robot successfully follow the line created a sense of achievement and engagement for the team and users.
 
+Clarity:
+Clear sensor placement and structured wiring improved performance and reduced confusion during debugging.
+
+Physical Interaction:
+We understood how real-world factors like surface texture, light, and friction affect robot behavior.
+
+Understanding:
+The project helped us understand how different subsystems must work together in real time.
+
+Iteration:
+Repeated testing and improvements were essential to refine accuracy and stability of the robot.
 
 ## 18.4 If You Had One More hour
 
 What would you improve next?
-
-**Response:**  
-
-` `
-
----
-
+With one more hour, we would improve sensor calibration and motor speed tuning to make movement smoother and more accurate. We would also refine wiring for better neatness and test the robot on more complex tracks with sharper turns to further enhance performance.
 # 19. Final Submission Checklist
 
 Before submission, confirm that:
@@ -818,7 +822,7 @@ Before submission, confirm that:
 - [x] Purchase list is complete
 - [x] Budget summary is complete
 - [x] Mechanical planning is documented if applicable
-- [ ] App planning is documented if applicable
+- [x] App planning is documented if applicable
 - [x] Code flowchart is added
 - [x] Task breakdown is complete
 - [x] Weekly logs are updated
