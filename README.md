@@ -60,12 +60,12 @@ By the final review, this README should clearly show:
 
 ## 1.2 Team Members
 
-| Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
-| -------------- | ------------------------------- | -------------- | -------------------------------- |
-| `Vamika Kaushik` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `Nandini Gupta`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
-| `Param Anam` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `Ruchi Ahuja`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project     |
+| -------------- | ------------------------------- | -------------- | --------------------------------     |
+| `Vamika Kaushik` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `    |
+| `Nandini Gupta`  | `[Electronics / Fabrication]`   | `[Coding]`       | `Material Handling, Hardware`    |
+| `Param Anam`     | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `    |
+| `Ruchi Ahuja`    | `[Electronics / Fabrication]`   | `[Coding]`       | `Material Handling, Hardware`    |
 
 <img width="1280" height="960" alt="WhatsApp Image 2026-04-27 at 12 10 16 PM" src="https://github.com/user-attachments/assets/0951c388-1604-453d-b274-ccc0f6605a20" />
 
@@ -594,28 +594,24 @@ Expected outcomes:
 
 ## 14.1 Risk Register
 
-| Risk                                                            | Type         | Likelihood | Impact   | Mitigation Plan                                                                       | Owner                |
-| --------------------------------------------------------------- | ------------ | ---------- | -------- | ------------------------------------------------------------------------------------- | -------------------- |
-| WiFi connection between laptop and ESP32 becomes unstable       | `Technical`  | `Medium`   | `High`   | Keep ESP32 close, ensure stable power supply, reduce network load, add fail-safe stop | `[Gopal]`           |
+| Risk                                                            | Type         | Likelihood         | Impact                      | Mitigation Plan                                                 | Owner                |
+Ultrasonic sensor drew more power    vamika                        hardware       due to high voltage  circuit shutsdown sometimes  we found an alternate use for                                                                                                                                      breadboard
 
 
 ## 14.2 Biggest Unknown Right Now
 
 What is the single biggest uncertainty in your project at this stage?
 
-**Response:**  
-
-
----
+rc car works even without power supply sometimes after it is done testing
 
 # 15. Testing 
 
 ## 15.1 Technical Testing Plan
 
 | What Needs Testing     | How You Will Test It                                                                 | Success Condition                                                                                    |
-| ---------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| `[Wifi connection]`    | `[Check if motor spins via app button]`                                              | `[Both motors accurately respond to wifi signals]`                                                   |
-                       |
+| ---------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------|
+
+
 ## 15.2 Testing and Debugging Log
 
 | Date          | Problem Found                         | Type         | What You Tried                                | Result               | Next Action                                    |
