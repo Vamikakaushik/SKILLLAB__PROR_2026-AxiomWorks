@@ -278,17 +278,9 @@ RC body                                      Support           Projct Body
 
 ## 7.1 Concept Sketch
 
-Add an early sketch of the full idea.
 
-**Insert image below:**  
-`[![Uploading image.png…]()
-]()
+`[![Uploading WhatsApp Image 2026-04-27 at 3.10.09 PM (2).jpeg…]()
 ]`
-
-Example:
-
-```md
-
 ```
 
 
