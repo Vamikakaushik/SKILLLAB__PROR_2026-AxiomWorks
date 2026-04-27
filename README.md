@@ -695,8 +695,7 @@ rc car works even without power supply sometimes after it is done testing
 
 ## 15.3 Playtesting Notes
 
-| Tester      | What They Did                        | What Confused Them                    | What They Enjoyed                         | What You Will Change                          |
-| ----------- | ------------------------------------ | ------------------------------------- | ----------------------------------------- | --------------------------------------------- |
+| Tester      | What They Did                        | What Confused Them                    | What They Enjoyed                         | What You Will Change   Vamika,nandini         run the rc car                  ir sensors are not sticking                  that the car is going perfectly on the path     diuble sided tape should be swapped with masking tape
 
 
 
@@ -707,17 +706,6 @@ rc car works even without power supply sometimes after it is done testing
 ## 16.1 Fabrication Process
 
 Describe how the project was physically made.
-
-Include:
-
-- cutting,
-- 3D printing,
-- assembly,
-- fastening,
-- wiring,
-- finishing,
-- revisions.
-
 Cutting:
 The chassis base and mounting parts were cut to the required size using acrylic sheets or lightweight board material. Openings were made for motors, sensors, and wiring paths to ensure proper fitting of components.
 
@@ -734,6 +722,11 @@ Revisions:
 After initial testing, minor adjustments were made such as sensor repositioning, wire corrections, and motor calibration. These revisions improved line tracking accuracy and overall performance.
 
 ## 16.2 Build Photos
+
+<img src="images/WhatsApp Image 2026-04-27 at 5.20.54 PM (1).jpeg" width="600">
+<img src="images/WhatsApp Image 2026-04-27 at 5.20.54 PM (2).jpeg" width="600">
+<img src="images/WhatsApp Image 2026-04-27 at 5.20.54 PM.jpeg" width="600">
+
 
 
 
