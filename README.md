@@ -68,7 +68,7 @@ By the final review, this README should clearly show:
 | `Param Anam` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
 | `Ruchi Ahuja`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
 
-images/WhatsApp Image 2026-04-27 at 12.10.16 PM.jpeg
+"<images/WhatsApp Image 2026-04-27 at 12.10.16 PM.jpeg" />
 ## 1.3 Project Title
 
 `"Line Follower"`
