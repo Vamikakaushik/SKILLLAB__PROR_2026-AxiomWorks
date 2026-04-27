@@ -265,7 +265,6 @@ IR sensorx2                                  Sensor            Detects Black Lin
 Dc Motorx2                                   Motor             Moves Robot
 L298Ns                                       Motor Driver      Controls Motor Power (bridge between motor and microcontroller)                 
 Jumper Wires                                 Support           Electrical connection
-Bread Board                                  Support           Wiring Platform
 Shrike Lite                                  Microcontroller   Reads sensor inputs and sends commands to motors
 Battery 3.7V                                 Power Supply      Gives power to system       
 Battery Holder                               Support           Hold battery securely
@@ -492,24 +491,41 @@ Our cost is cheaper compared to big machines but even if its not affordable to a
 
 ## 12.1 Team Working Agreement
 
+The project work will be mainly divided based on skills and interest. One member will handle hardware assembly whereas the other will focus on the software part.Documentation and report writing will be shared between teammates.
+
+1.Decision Making:
+All major decisions will be made through group discussion. If there is disagreement, the team will decide based on testing results and majority agreement.
+
+2.Progress Checking:
+Progress will be reviewed regularly during short team meetings. Each member will report what they have completed, what is pending, and any issues faced. A simple checklist or timeline will be used to track milestones like “chassis completed,” “sensor working,” and “final testing done.”
+
+3.Delay Handling:
+If any task is delayed, other team members will assist to complete it. The workload may be redistributed temporarily to ensure the project stays on schedule. Priority will be given to critical tasks like coding and wiring.
+
+4.Documentation Maintenance:
+All work will be documented continuously. This includes circuit diagrams, code updates, testing results, and changes made during development. A shared file will be maintained so that all members have access to the latest version of the project details.
 
 ## 12.2 Task Breakdown
 
-| Task ID | Task                    | Owner    | Estimated Hours | Deadline     | Dependency | Status |
-| ------- | ----------------------- | -------- | ---------------:| ------------ | ---------- | ------ |
-| T1      | `[Finalize concept]`    | `[Both]` | `2`             | `1st April`  | `None`     | `Done` |
+| Task ID | Task                    | Owner    | Estimated Hours | Deadline     |  Status |
+| ------- | ----------------------- | -------- | ---------------:| ------------ |  ------ |
+     1        hardware               vamika           5hours         27 april     complete
+     2        software               nandini          2hour          27 april     complete
+     3        documentation          param            8hours         27 april     complete
+     4        report or ppt          ruchi            2hours         27 april     complete
+     5        video                  all              40mins         27 april     complete
 
 
 ## 12.3 Responsibility Split
 
 | Area                 | Main Owner | Support Owner |
 | -------------------- | ---------- | ------------- |
-| Concept              | `[Gopal]`  | `[Kader]`    |
-| Electronics          | `[]`       | `[]`     |
-| Coding               | `[]`       | `[]`     |
-| Mechanical build     | `[]`       | `[]`    |
-| Testing              | `[]`       | `[]`    |
-| Documentation        | `[]`       | `[]`     |
+| Concept              | `[Nandini]`| `[Vamika]`    |
+| Electronics          | `[Ruchi]   | `[Param]`     |
+| Coding               | `[Nandini]`| `[Vamika]`    |
+| Mechanical build     | `[Vamika]` | `[Nandini]`   |
+| Testing              | `[Ruchi]`  | `[Param]`     |
+| Documentation        | `[Param]`  | `[Ruchi]`     |
 
 ---
 
@@ -526,7 +542,7 @@ Expected outcomes:
 - [x] Sketches made
 - [x] BOM completed
 - [x] Purchase needs identified
-- [ ] Key uncertainty identified
+- [x] Key uncertainty identified
 - [x] Basic feasibility tested
 
 ### Bi Hour 2 — Build Subsystems
@@ -534,7 +550,7 @@ Expected outcomes:
 Expected outcomes:
 
 - [x] Electronics tests completed
-- [ ] CAD / structure planning completed
+- [x] CAD / structure planning completed
 - [ ] App UI started if needed
 - [x] Mechanical concept tested
 - [x] Main subsystems partially working
@@ -561,14 +577,18 @@ Expected outcomes:
 
 ## 13.2  Update Log
 
-| Week   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
-| ------ | -------------- | ---------------------- | -------------- | -------------- |
-| Week 1 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 2 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 3 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| hour   | Planned Goal   | What Actually Happened       | What Changed       | Next Steps     |
 
----
+   1      Topic decision    Many topics were discussed    Topic Finalized       Mapping
+   2      Mapping           Basic map was created         Easy to begin         circuit configuration
+   3      Circuit Config    All connections were made     Pinconfig was wrong   correcting the pin config
+   4      Correction        All connections were right    No more errors        code uploadation
+   5      Coding            Code was built and uploaded   Code had errors       error correction
+   6      corrections       code was corrected            all erros resolved    testing
+   7      testing           project was tested            breadboard was        alternate solution
+                                                          overloading the
+                                                          project
+   8      End               breadboard no longer in use   project is ready      pitching and presenting
 
 # 14. Risks and Unknowns
 
