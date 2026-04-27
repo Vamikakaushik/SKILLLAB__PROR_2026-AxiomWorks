@@ -57,7 +57,6 @@ By the final review, this README should clearly show:
 
 ## 1.1 Studio / Group Name: Axiom Works
 
-`Project^2`
 
 ## 1.2 Team Members
 
@@ -72,7 +71,6 @@ By the final review, this README should clearly show:
 
 ## 1.3 Project Title
 
-`"Line Follower"`
 
 
 "<img width="955" height="504" alt="title-card (1)_edited" src="https://github.com/user-attachments/assets/0a1e5c2c-a4f0-4559-b7ac-efb862d08250" />
