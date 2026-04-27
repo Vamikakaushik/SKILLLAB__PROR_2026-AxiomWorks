@@ -272,6 +272,7 @@ Strike Lite                                  Microcontroller   Reads sensor inpu
 Battery 9V                                   Power Supply      Gives power to system       
 Battery Holder                               Support           Hold battery securely
 RC body                                      Support           Projct Body
+Ultrasonic Sensor                            Sensor            Object Detection
 ---
 
 # 7. Sketches and Visual Planning
@@ -279,8 +280,7 @@ RC body                                      Support           Projct Body
 ## 7.1 Concept Sketch
 
 
-`[<img width="1536" height="1024" alt="WhatsApp Image 2026-04-27 at 3 10 09 PM (2)" src="https://github.com/user-attachments/assets/3bfce7b2-13c7-4003-9c12-7350ea98d3fe" /># 
- ]`
+<img width="1536" height="1024" alt="WhatsApp Image 2026-04-27 at 3 10 09 PM (2)" src="https://github.com/user-attachments/assets/3bfce7b2-13c7-4003-9c12-7350ea98d3fe" />
 ```
 
 
