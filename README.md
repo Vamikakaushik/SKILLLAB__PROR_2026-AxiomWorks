@@ -269,7 +269,7 @@ L298Ns                                       Motor Driver      Controls Motor Po
 Jumper Wires                                 Support           Electrical connection
 Bread Board                                  Support           Wiring Platform
 Strike Lite                                  Microcontroller   Reads sensor inputs and sends commands to motors
-Battery 9V                                   Power Supply      Gives power to system       
+Battery 3.7V                                 Power Supply      Gives power to system       
 Battery Holder                               Support           Hold battery securely
 RC body                                      Support           Projct Body
 Ultrasonic Sensor                            Sensor            Object Detection
@@ -371,8 +371,8 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Tool / Platform                | Purpose                                        |
 | ------------------------------ | ---------------------------------------------- |
-| `[MicroPython]`                | `Control ESP32`                                |
-| `[Python/PyGame/OpenCV]`       | `Track markers, game logic, create projection` |
+| `[C++]`                        | `Control Strike Lite`                          |
+| `[Arduino IDE]`                | `Recieve input,feed output to the motor driver'|
 | `[Fusion/Blender/Illustrator]` | `[Prototyping structure]`                      |
 |                                |                                                |
 
