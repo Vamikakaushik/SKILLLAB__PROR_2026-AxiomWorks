@@ -302,10 +302,10 @@ Add a sketch with labels showing:
 
 | Dimension        | Value   |
 | ---------------- | ------- |
-| Length           | `16 cm` |
-| Width            | `16 cm` |
-| Height           | `8 cm`  |
-| Estimated weight | `400 g` |
+| Length           | `18 cm` |
+| Width            | `15 cm` |
+| Height           | `10cm`  |
+| Estimated weight | `500 g` |
 
 ---
 
