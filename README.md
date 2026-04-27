@@ -281,7 +281,9 @@ RC body                                      Support           Projct Body
 Add an early sketch of the full idea.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[![Uploading image.png…]()
+]()
+]`
 
 Example:
 
