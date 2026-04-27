@@ -74,8 +74,8 @@ By the final review, this README should clearly show:
 
 `(because Project-or)`
 
-<img width="955" height="502" alt="title-card_edited" src="<img width="955" height="504" alt="title-card (1)_edited" src="https://github.com/user-attachments/assets/0a1e5c2c-a4f0-4559-b7ac-efb862d08250" />
-" />
+"<img width="955" height="504" alt="title-card (1)_edited" src="https://github.com/user-attachments/assets/0a1e5c2c-a4f0-4559-b7ac-efb862d08250" />
+
 
 
 ## 1.4 One-Line Pitch
