@@ -70,9 +70,8 @@ By the final review, this README should clearly show:
 
 ## 1.3 Project Title
 
-`"Project Project"`
+`"Line Follower"`
 
-`(because Project-or)`
 
 "<img width="955" height="504" alt="title-card (1)_edited" src="https://github.com/user-attachments/assets/0a1e5c2c-a4f0-4559-b7ac-efb862d08250" />
 
@@ -80,18 +79,10 @@ By the final review, this README should clearly show:
 
 ## 1.4 One-Line Pitch
 
-`A projected, fully customizable time portal where engineering education is done through PUBG battlefield in the comfort of our home`
+`A smart navigation robot that eliminates manual driving by following programmed paths using IR sensing`
 
 ## 1.5 Expanded Project Idea
 
-In 1–2 paragraphs, explain:
-
-- what your project is,
-- what kind of experience it creates,
-- what technologies are involved.
-
-**Response:**  
-`A projected and fully customizable time portal can transform engineering education into an immersive PUBG-style battlefield experience from the comfort of home. In this environment, students can learn engineering concepts by entering a virtual battlefield where challenges, obstacles, and missions are designed around real technical problems. Instead of passively studying theory, learners actively apply concepts such as electronics, coding, sensors, robotics, mechanics, and system design to complete missions, solve problems, and progress through different levels. This approach makes engineering education more interactive, engaging, and practical by combining gaming, simulation, and hands-on problem-solving in a familiar and exciting format.`
 
 ---
 
