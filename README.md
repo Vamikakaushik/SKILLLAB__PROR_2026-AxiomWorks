@@ -327,7 +327,8 @@ Left and right motors operate independently for turning.
 
 ## 8.3 Circuit Diagram
 
-<img images/WhatsApp Image 2026-04-27 at 4.25.32 PM.jpeg/>
+<img src="images/WhatsApp Image 2026-04-27 at 4.25.32 PM.jpeg" width="400">
+
 
 
 # 9. Power Plan
