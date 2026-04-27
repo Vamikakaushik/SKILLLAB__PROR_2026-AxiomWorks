@@ -381,7 +381,7 @@ Insert a hand-drawn or software-made circuit diagram.
 Describe what the code must do.
 
 Startup Behavior:
-When powered ON, the system initializes all pins, sensors, and motor driver. The robot may pause briefly or indicate readiness (e.g., LED blink) before starting movement.
+When powered ON, the system initializes all pins, sensors, and motor driver. The robot may pause briefly or indicate readiness before starting movement.
 
 Input Handling:
 The code continuously checks inputs from the IR sensors to detect the position of the line under the robot.
@@ -401,7 +401,7 @@ Output Behavior:
 The microcontroller sends signals to the motor driver to control motor direction and speed, resulting in forward movement or turning.
 
 Communication Logic:
-In the basic version, no external communication is required. (Optional: Bluetooth or serial communication can be added for control or monitoring.)
+In the basic version, no external communication is required.
 
 Reset Behavior:
 On reset or restart, the system reinitializes and begins from the starting condition, ready to follow the line again.`
