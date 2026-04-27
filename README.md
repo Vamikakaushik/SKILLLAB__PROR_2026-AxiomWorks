@@ -335,11 +335,8 @@ Left and right motors operate independently for turning.
 
 ## 8.3 Circuit Diagram
 
-Insert a hand-drawn or software-made circuit diagram.
-
-**Insert image below:**  
-`[Upload image and link here]`
-<img width="867" height="1156" alt="" src="" />
+<![Uploading image.png…]()
+/>
 
 
 # 9. Power Plan
@@ -608,22 +605,20 @@ rc car works even without power supply sometimes after it is done testing
 
 ## 15.1 Technical Testing Plan
 
-| What Needs Testing     | How You Will Test It                                                                 | Success Condition                                                                                    |
-| ---------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------|
+| What Needs Testing     | How You Will Test It                                     | Success Condition|
+| IR Sensors             | We have used black tape to make a pathway for our RC car | 90% |
 
 
 ## 15.2 Testing and Debugging Log
 
-| Date          | Problem Found                         | Type         | What You Tried                                | Result               | Next Action                                    |
-| ------------- | ------------------------------------- | ------------ | --------------------------------------------- | -------------------- | ---------------------------------------------- |
-| `18th April`  | `Car not balancing properly`          | `Mechanical` | `Add low-friction caster support to one side` | `Worked`             | `improve caster structure`                     |
-
+| Date          | Problem Found                         | Type         | What You Tried                                | Result               | Next Action|
+ 27 april        breadboard was overloading the project   hardware        tried different power supplies                 did not matter         stopped using                                                                                                                                                     bread board
 
 ## 15.3 Playtesting Notes
 
 | Tester      | What They Did                        | What Confused Them                    | What They Enjoyed                         | What You Will Change                          |
 | ----------- | ------------------------------------ | ------------------------------------- | ----------------------------------------- | --------------------------------------------- |
-| `Gopal` | `Tried navigating through obstacles` | `Some obstacles ewren't clear enough` | `Liked projection + real car interaction` | `Add a slight red highlight around obstacles` |
+
 
 
 ---
@@ -644,36 +639,23 @@ Include:
 - finishing,
 - revisions.
 
-**Response:**  
-`The fabrication process involved designing, manufacturing, assembling, and refining both the physical structure and electronic integration of the system.`
+Cutting:
+The chassis base and mounting parts were cut to the required size using acrylic sheets or lightweight board material. Openings were made for motors, sensors, and wiring paths to ensure proper fitting of components.
 
-`Design (CAD Modeling):
-The initial model was created using CAD software, where components were designed based on the actual dimensions of the electronic parts. This ensured accurate fitting and minimized errors during assembly.
-Cutting (Laser Cutting):
-The designed parts were fabricated using laser cutting techniques. Sheets were cut precisely according to the CAD model to create the structural base and mounts for components.`
+Assembly:
+All mechanical components like motors, wheels, and chassis frame were assembled first. The IR sensors were mounted at the front in a fixed position for accurate line detection, and the battery holder was placed securely on the base.
 
-`Components were fixed using adhesives and mechanical supports. Certain parts were intentionally kept modular (not permanently fixed) to allow easy replacement and modification of electronics.
-Surface Finishing:
-Some parts were sanded to smooth rough edges after cutting. Sawdust mixed with adhesive was used to fill gaps and uneven edges, improving structural finish. The final structure was then painted for better aesthetics and durability.`
+Wiring:
+All electronic connections were made according to the circuit plan. The microcontroller, motor driver, sensors, and motors were carefully connected using jumper wires, ensuring correct polarity and proper grounding.
 
-`Environment Setup (Dark Room Fabrication):
-To enhance projection visibility, a controlled dark environment was created using Z-boards, paper sheets, and bedsheets. This minimized external light interference and improved projection clarity.
-Revisions and Iterations:
-Multiple adjustments were made throughout the process, including refining alignment, improving structural stability, repositioning components, and optimizing the interaction between the physical car and projected environment.`
+Finishing:
+Loose wires were organized and tied neatly to avoid interference with moving parts. The overall structure was checked for balance, and the wheels were tested for smooth rotation.
+
+Revisions:
+After initial testing, minor adjustments were made such as sensor repositioning, wire corrections, and motor calibration. These revisions improved line tracking accuracy and overall performance.
 
 ## 16.2 Build Photos
 
-Add photos throughout the project.
-
-Suggested images:
-
-- early sketch,
-- prototype,
-- electronics testing,
-- mechanism test,
-- app screenshot,
-- final build.
-- <img width="960" height="1280" alt="WhatsApp Image 2026-04-24 at 9 46 02 AM (1)" src="https://github.com/user-attachments/assets/74baa570-5770-483e-be6d-d2f03386e37c" />
 
 
 
