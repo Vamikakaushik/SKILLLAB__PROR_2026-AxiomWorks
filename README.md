@@ -287,17 +287,8 @@ Ultrasonic Sensor                            Sensor            Object Detection
 
 ## 7.2 Labeled Build Sketch
 
-Add a sketch with labels showing:
-
-- structure,
-- electronics placement,
-- user touch points,
-- moving parts,
-- output elements.
-
-**Insert image below:**  
-`[Upload image and link here]`
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/95637f31-b4e7-4427-a9e1-4b63fbeb0ac5" />
+<<img width="918" height="1169" alt="WhatsApp Image 2026-04-27 at 3 40 19 PM_edited" src="https://github.com/user-attachments/assets/d71f648b-1600-45c7-8dcc-6bd8847231a0" />
+/>
 
 ## 7.3 Approximate Dimensions
 
