@@ -268,7 +268,7 @@ Dc Motorx2                                   Motor             Moves Robot
 L298Ns                                       Motor Driver      Controls Motor Power (bridge between motor and microcontroller)                 
 Jumper Wires                                 Support           Electrical connection
 Bread Board                                  Support           Wiring Platform
-Strike Lite                                  Microcontroller   Reads sensor inputs and sends commands to motors
+Shrike Lite                                  Microcontroller   Reads sensor inputs and sends commands to motors
 Battery 3.7V                                 Power Supply      Gives power to system       
 Battery Holder                               Support           Hold battery securely
 RC body                                      Support           Projct Body
@@ -307,7 +307,7 @@ Ultrasonic Sensor                            Sensor            Object Detection
 
 | Component                 | Quantity | Purpose                               |
 | ------------------------- | --------:| ------------------------------------- |
-| `[Strike Lite]`           | `1`      | `[Main controller]`                   |
+| `[Shrike Lite]`           | `1`      | `[Main controller]`                   |
 | `[L298N Motor Driver]`    | `1`      | `[Control Motors]`                    |
 | `[DC Motors]`             | `2`      | `[Rotate wheels]`                     |
 | `[Battery Holder]`        | `1`      | `[Holds Battery]`                       |
@@ -362,7 +362,7 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Tool / Platform                | Purpose                                        |
 | ------------------------------ | ---------------------------------------------- |
-| `[C++]`                        | `Control Strike Lite`                          |
+| `[C++]`                        | `Control Shrike Lite`                          |
 | `[Arduino IDE]`                | `Recieve input,feed output to the motor driver'|
 | `[Fusion/Blender/Illustrator]` | `[Prototyping structure]`                      |
 |                                |                                                |
@@ -425,18 +425,59 @@ Suggested sequence:
 
 | Item                             | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec               | Why This Choice?          |
 | -------------------------------- | --------:| ------- | ------------ | --------------:| ----------------------------- | ------------------------- |
-| `[ESP32]`                        | `1`      | `Yes`   | `No`         | `0`            | `38 Pin ESP32`                | `[To control components]` |
-| `[Motor Driver]`                 | `[1]`    | `[Yes]` | `[No]`       | `0`            | `[LN296]`                     | `[To drive both motors]`  |
-| `[DC Motors and wheel]`          | `[2]`    | `[No]`  | `[Yes]`      | `[150]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
-| `[Buck Converter]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
-| `[Li-ion batteries with holder]` | `[1]`    | `[No]`  | `[Yes]`      | `[200]`        |                               |                           |
+| `[Shrike Lite]`                  | `1`      | `Yes`   | `No`         | `[379]`        | ``                            | `[To control components]` |
+| `[ Motor Driver]`                | `[1]`    | `[Yes]` | `[No]`       | `[91]`         | `[L298N]`                     | `[To drive both motors]`  |
+| `[DC Motors and wheel]`          | `[2]`    | `[Yes]` | `[No]`       | `[100]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
+| `[Battery Holder]`               | `[1]`    | `[Yes]` | `[No]`       | `[40]`         |                               |                           |
+| `[3.7V Batteris]`                | `[2]`    | `[Yes]` | `[No]`       | `[75]`         |                               |                           |
+| `[jumper wirse]`                 | `[40]`   | `[No]`  | `[Yes]`      | `[40]`         |
+| `[IR Sensor]`                    | `[2]`    | `[Yes]` | `[No]`       | `[300]`      
+| `[Ultrasonic Sensor]`            | `[1]`    | `[No]`  | `[Yes]`      | `[65]`
 
 ## 11.2 Material Justification
-
+ 
 Explain why you selected your main materials and components.
+1. Microcontroller (Control Unit)
+We selected a microcontroller board because it is:
+Easy to program and widely supported
+Capable of real-time sensor reading and motor control
+Affordable for student-level projects
+It acts as the brain of the system, making all movement decisions quickly and efficiently.
 
-**Response:**  
-`DC motors (BO motors) were chosen instead of servos or steppers because the system requires continuous rotation for movement rather than precise angular control (Previously, we were considering using steppers as we were planning on tracking movement on the ESP using its relative position from an origin, but since we're using a camera now, this is not required). A motor driver (L298N) was used to allow bidirectional control and speed variation using PWM.`
+2. IR Sensors
+IR sensors were chosen because:
+They can clearly detect contrast between black and white surfaces
+They are low-cost and highly reliable for line tracking
+They respond quickly, enabling real-time corrections
+They form the core input system of the robot.
+
+3. Motor Driver (L298N)
+We used a motor driver because:
+Microcontrollers cannot directly power motors
+It allows control of direction and speed for two DC motors
+It is cheap, widely available, and easy to interface
+It acts as the bridge between logic and motion.
+
+4. DC Motors
+DC motors were selected because:
+They are simple, durable, and easy to control
+Suitable for low-speed robotic movement
+Cost-effective for small-scale robotics
+They provide the physical movement of the robot.
+
+5. Chassis (Frame Structure)
+We used a lightweight chassis because:
+It holds all components in a stable structure
+It reduces weight for better movement efficiency
+It is easy to assemble and modify
+It forms the physical foundation of the robot.
+
+6. Power Source (Battery)
+A battery was chosen because:
+It provides portable and stable power supply
+Supports continuous operation without external connection
+Easy to replace or recharge
+It ensures the robot remains self-contained and mobile.
 
 
 ## 11.3 Items You chose
