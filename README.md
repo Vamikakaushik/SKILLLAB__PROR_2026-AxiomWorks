@@ -279,8 +279,7 @@ RC body                                      Support           Projct Body
 ## 7.1 Concept Sketch
 
 
-`[![Uploading WhatsApp Image 2026-04-27 at 3.10.09 PM (2).jpeg…]()
-]`
+`[images/WhatsApp Image 2026-04-27 at 3.10.09 PM (1).jpeg]`
 ```
 
 
