@@ -385,23 +385,110 @@ On reset or restart, the system reinitializes and begins from the starting condi
 
 ## 10.3 Code Flowchart
 
-Insert a flowchart showing your code logic.
+// -------- IR SENSOR PINS --------
 
-Suggested sequence:
+int IR_Left  = 18;   // GP18
+int IR_Right = 17;   // GP17
 
-- start,
-- initialize,
-- wait for input,
-- read input,
-- decision,
-- trigger output,
-- repeat or reset,
-- error handling.
+// -------- MOTOR PINS --------
 
-**Insert image below:**  
-<img width="1600" height="1200" alt="image" src="" />
-<img width="1600" height="1200" alt="image" src="" />
+int IN1 = 25;
+int IN2 = 24;
+int IN3 = 23;
+int IN4 = 22;
 
+
+// -------- SETUP --------
+
+void setup() {
+
+  pinMode(IR_Left, INPUT);
+  pinMode(IR_Right, INPUT);
+
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+
+  Serial.begin(9600);
+}
+
+
+// -------- MOTOR FUNCTIONS --------
+
+void forward() {
+
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+
+void left() {
+
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+
+void right() {
+
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+}
+
+void stopMotors() {
+
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+}
+
+
+// -------- MAIN LOOP --------
+
+void loop() {
+
+  int leftIR  = digitalRead(IR_Left);
+  int rightIR = digitalRead(IR_Right);
+
+  Serial.print(leftIR);
+  Serial.print(" ");
+  Serial.println(rightIR);
+
+  // BOTH sensors on white → move forward
+  if (leftIR == LOW && rightIR == LOW) {
+
+    forward();
+  }
+
+  // LEFT detects line → turn left
+  else if (leftIR == HIGH && rightIR == LOW) {
+
+    left();
+  }
+
+  // RIGHT detects line → turn right
+  else if (leftIR == LOW && rightIR == HIGH) {
+
+    right();
+  }
+
+  // BOTH detect → stop
+  else {
+
+    stopMotors();
+  }
+
+}
 
 
 
