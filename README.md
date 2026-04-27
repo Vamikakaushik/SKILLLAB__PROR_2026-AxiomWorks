@@ -380,33 +380,31 @@ Insert a hand-drawn or software-made circuit diagram.
 
 Describe what the code must do.
 
-Include:
+Startup Behavior:
+When powered ON, the system initializes all pins, sensors, and motor driver. The robot may pause briefly or indicate readiness (e.g., LED blink) before starting movement.
 
-- startup behavior,
-- input handling,
-- sensor reading,
-- decision logic,
-- output behavior,
-- communication logic,
-- reset behavior.
+Input Handling:
+The code continuously checks inputs from the IR sensors to detect the position of the line under the robot.
 
-**Response:**  
-`
+Sensor Reading:
+IR sensors provide HIGH/LOW signals depending on whether they detect the black line or white surface. These readings are updated in real time.
 
-- **Startup behavior:**  
-  The ESP32 initializes motor pins, PWM control, and starts a WiFi access point with a web server. The laptop initializes camera input, tracking system, and projection mapping.
-- **Input handling:**  
-  Movement commands are received from the laptop (pygame sends http requests)
-- **Sensor reading:**  
-  The camera continuously captures frames, and OpenCV detects ArUco markers to determine the car’s position and orientation.
-- **Decision logic:**  
-  The system maps the car’s position into a virtual coordinate system and checks for nearby obstacles or collisions. If movement is valid, the command is allowed; if not, it is blocked or replaced with a feedback action (like a slight shake).
-- **Output behavior:**  
-  The ESP32 drives the motors using PWM signals to control speed and direction. The projector displays the updated game environment, including obstacles, targets, and feedback visuals.
-- **Communication logic:**  
-  The laptop sends HTTP requests (e.g., `/forward`, `/left`) to the ESP32 over WiFi. The ESP32 parses these commands and executes motor actions.
-- **Reset behavior:**  
-  If no command is received within a short timeout, the ESP32 stops the motors. The game resets when a level is completed or restarted.`
+Decision Logic:
+Based on sensor values:
+
+Both sensors on line → move forward
+Left sensor off line → turn left
+Right sensor off line → turn right
+Both off line → stop or search for line
+
+Output Behavior:
+The microcontroller sends signals to the motor driver to control motor direction and speed, resulting in forward movement or turning.
+
+Communication Logic:
+In the basic version, no external communication is required. (Optional: Bluetooth or serial communication can be added for control or monitoring.)
+
+Reset Behavior:
+On reset or restart, the system reinitializes and begins from the starting condition, ready to follow the line again.`
 
 ## 10.3 Code Flowchart
 
