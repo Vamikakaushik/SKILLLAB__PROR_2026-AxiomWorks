@@ -364,10 +364,10 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Question         | Response                                                                                                                                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Power source     | `Battery (Li-ion pack)`                                                                                                                           |
-| Voltage required | `~6–8.4V for motors (via driver), stepped down to 5V for ESP32 (buck converter)`                                                                  |
-| Current concerns | `Motors can draw high current under load, which may cause voltage drops affecting ESP32 and WiFi stability`                                       |
-| Safety concerns  | `Avoid over-discharging Li-ion batteries, ensure proper voltage regulation, prevent short circuits, and secure wiring to avoid loose connections` |
+| Power source     | `9V Battery`                                                                                                                                      |                              
+| Voltage required | `3.3 to 5V for strike lite`                                                                                                                       |
+| Current concerns | `Speed is very high`                                                                                                                              |
+| Safety concerns  | `Using Pwm to set speed levels`                                                                                                                   |
 
 ---
 
