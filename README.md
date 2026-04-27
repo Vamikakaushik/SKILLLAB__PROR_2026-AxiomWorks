@@ -215,23 +215,23 @@ Check all that apply.
 
 - [x] Electronics-based
 
-- [ ] Mechanical
+- [x] Mechanical
 
 - [x] Sensor-based
 
-- [x] App-connected
+- [ ] App-connected
 
 - [x] Motorized
 
 - [ ] Sound-based
 
-- [x] Light-based
+- [ ] Light-based
 
-- [x] Screen/UI-based
+- [ ] Screen/UI-based
 
 - [x] Fabricated structure
 
-- [x] Game logic based
+- [ ] Game logic based
 
 - [x] Installation
 
@@ -249,7 +249,16 @@ Include:
 - physical structure,
 - app interaction if any.
 
-**Response:**  
+Input:
+The system receives input from IR sensors placed at the front of the robot. These sensors detect the black line on the surface by sensing the difference between black and white areas.
+Processing:
+The microcontroller reads the sensor signals and decides the movement of the robot. If both sensors detect the line, the robot moves forward. If one sensor moves off the line, the controller adjusts motor speed to correct the direction and bring the robot back on track.
+Output:
+The output is the movement of the robot. The DC motors respond to the controller’s signals by moving the wheels left, right, or forward, allowing the robot to follow the line.
+Physical Structure:
+The system is built on a small chassis that holds the motors, wheels, sensors, battery, and controller. The sensors are placed at the front for accurate line detection, and the motors are fixed to the sides for movement control.
+App Interaction (if any):
+In the basic version, there is no app involved. The robot works autonomously based on pre-programmed instructions. (Optional advanced versions may include Bluetooth or mobile app control, but it is not required for core operation.)
 
 ## 6.3 Input / Output Map
 
