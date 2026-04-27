@@ -74,7 +74,7 @@ By the final review, this README should clearly show:
 
 `(because Project-or)`
 
-<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/c64bfbd4-b3b7-43d9-83ad-c203a5aa11bc" />
+<img width="1600" height="1131" alt="image" src="https://afrobot.africa/media/uploads/competition_images/7f4da284-2a19-4a42-9005-9b9899d29a62.jpg" />
 
 ## 1.4 One-Line Pitch
 
