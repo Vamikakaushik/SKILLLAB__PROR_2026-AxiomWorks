@@ -263,8 +263,15 @@ In the basic version, there is no app involved. The robot works autonomously bas
 ## 6.3 Input / Output Map
 
 | System Part                              | Type            | What It Does                                                               |
-
-
+IR sensorx2                                  Sensor            Detects Black Line 
+Dc Motorx2                                   Motor             Moves Robot
+L298Ns                                       Motor Driver      Controls Motor Power (bridge between motor and microcontroller)                 
+Jumper Wires                                 Support           Electrical connection
+Bread Board                                  Support           Wiring Platform
+Strike Lite                                  Microcontroller   Reads sensor inputs and sends commands to motors
+Battery 9V                                   Power Supply      Gives power to system       
+Battery Holder                               Support           Hold battery securely
+RC body                                      Support           Projct Body
 ---
 
 # 7. Sketches and Visual Planning
