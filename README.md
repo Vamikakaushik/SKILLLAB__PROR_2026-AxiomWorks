@@ -155,19 +155,55 @@ the warehouse is fully sorted within hours saving time and labour
 
 ## 5.1 Definition of “Usable”
 
+For our RC Line Follower robot, “usable” means that the system is not just working in ideal conditions, but is practical, reliable, and easy to operate in real-world or near-real-world environments where line-based navigation is required.
+
+A usable RC Line Follower always:
+1.Easy Operation
+The user should be able to start and use the robot with minimal effort—typically by switching it ON or selecting a mode. No complex setup or technical adjustments should be required during normal use.
+
+2. Reliable Line Detection
+The robot must consistently detect and follow the black line on different surfaces without frequent errors, even when there are curves, junctions, or slight lighting changes.
+
+3. Stable Movement Under Load
+It should move smoothly while carrying a small payload (like a parcel or object) without losing balance or deviating from the path.
+
+4. Correct Decision-Making at Junctions
+If the path includes splits or turns, the robot should correctly follow the intended route based on pre-programmed logic or sensor input without manual intervention.
+
+5. Minimal Human Intervention
+Once started, the system should operate autonomously until it reaches its destination, requiring human input only for start, stop, or mode selection.
+
+6. Consistency Across Repeated Runs
+The robot should perform the same task multiple times with similar accuracy and timing, proving it is dependable rather than случай (random) in behavior.
+
+7. Safe and Controlled Operation
+The movement should be controlled enough to avoid collisions, sudden jerks, or instability, making it safe for use in indoor environments like labs, warehouses, or model industrial setups.
 
 
 ## 5.2 Minimum Usable Version
 
 What is the smallest version of this project that still delivers the core experience?
 
-**Response:**  
+  The smallest version of this is a 4-wheel IR-sensor robot that follows a single closed black line loop autonomously using basic left-right correction logic.
 
 
 ## 5.3 Stretch Features
 
 What features are nice to have but not essential?
 
+Some of the nice to have non essential features are:
+1.PID Control:
+Makes movement smoother and reduces zig-zagging on curves.
+2.Speed control:
+Allows slow turns and fast straight movement
+3.Gradual acceleration/deceleration:
+Prevents jerky starts and stops.
+4.Junction detection and decision logic
+Choosing left/right/straight at splits.
+5.Multiple path memory or routing logic
+Following different pre-set routes.
+6.Start/stop markers on the track
+Detecting special zones using sensor patterns.
 
 ---
 
