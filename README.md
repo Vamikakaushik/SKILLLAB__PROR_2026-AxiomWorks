@@ -239,14 +239,6 @@ Check all that apply.
 
 Explain how the system works in simple terms.
 
-Include:
-
-- input,
-- processing,
-- output,
-- physical structure,
-- app interaction if any.
-
 Input:
 The system receives input from IR sensors placed at the front of the robot. These sensors detect the black line on the surface by sensing the difference between black and white areas.
 Processing:
@@ -335,7 +327,7 @@ Left and right motors operate independently for turning.
 
 ## 8.3 Circuit Diagram
 
-<D:\ms edge\WhatsApp Image 2026-04-27 at 4.25.32 PM.jpeg/>
+<img images/WhatsApp Image 2026-04-27 at 4.25.32 PM.jpeg/>
 
 
 # 9. Power Plan
