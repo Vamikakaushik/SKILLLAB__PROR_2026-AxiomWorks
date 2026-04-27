@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="WhatsApp Image 2026-04-27 at 3 10 09 PM (2)" src="https://github.com/user-attachments/assets/3bfce7b2-13c7-4003-9c12-7350ea98d3fe" /># SKILL LAB PRATICAL HACKATHON
+SKILL LAB PRATICAL HACKATHON
 
 ## Final Project README
 
@@ -279,7 +279,7 @@ RC body                                      Support           Projct Body
 ## 7.1 Concept Sketch
 
 
-`[![Uploading WhatsApp Image 2026-04-27 at 3.10.09 PM (2)_compressed_edited.jpeg…]()
+`[<img width="1536" height="1024" alt="WhatsApp Image 2026-04-27 at 3 10 09 PM (2)" src="https://github.com/user-attachments/assets/3bfce7b2-13c7-4003-9c12-7350ea98d3fe" /># 
  ]`
 ```
 
