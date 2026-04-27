@@ -68,7 +68,7 @@ By the final review, this README should clearly show:
 | `Ruchi Ahuja`    | `[Electronics / Fabrication]`   | `[Coding]`       | `Material Handling, Hardware`    |
 
 <img width="1280" height="960" alt="WhatsApp Image 2026-04-27 at 12 10 16 PM" src="https://github.com/user-attachments/assets/0951c388-1604-453d-b274-ccc0f6605a20" />
-
+https://youtu.be/5uK6OS8SJzE?si=vRgIhkr_vDLZBDh5
 ## 1.3 Project Title
 
 
