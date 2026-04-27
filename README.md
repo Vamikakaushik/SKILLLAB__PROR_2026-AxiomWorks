@@ -117,17 +117,19 @@ You are allowed to build:
 
 List what inspired the project.
 
-| Source Type | Title / Link                                                        | What Inspired You                                                                         |
-| ----------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| `[Video]`   | `https://www.instagram.com/reel/DW4CT7WCDry/?igsh=cXg3dzAxYmdncDBo` | `How projection mapping can be used to create interactive digital + physical experiences` |
-|             |                                                                     |                                                                                           |
-|             |                                                                     |                                                                                           |
+| Source Type | Title / Link
+
+Industrial Automation:	Automated Guided Vehicles (AGVs) in warehouses
+Real-world Application:
+Factory conveyor and path-guided transport systems
+
+What Inspired You                                                                         
+A line-following robot is inspired by the idea of making a machine that can move on its own without being controlled all the time. It follows a line on the ground like a guide, similar to how factory robots or delivery robots follow fixed paths. The project is made to understand how a robot can use sensors to see the path, make simple decisions, and correct its movement automatically.|
 
 ## 3.2 Original Twist
 
 What makes your project original?
-
-**Response:**  
+What makes this project original is that it goes beyond a basic line-following robot. Instead of only moving automatically on a fixed path, it also includes Bluetooth control, which allows the user to manually operate the robot whenever needed. This gives the system flexibility to switch between automatic and manual modes depending on the situation. In addition, the project focuses on better engineering design by separating the motor power supply from the control circuit, which improves stability and reduces common issues like resets or interruptions. By combining sensors, motor control, and wireless communication in a single system, the project becomes more practical, reliable, and closer to real-world robotic applications rather than just a simple beginner-level model.
 
 
 ---
