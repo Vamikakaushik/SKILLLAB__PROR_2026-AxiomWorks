@@ -426,11 +426,14 @@ Suggested sequence:
 | `[Shrike Lite]`                  | `1`      | `Yes`   | `No`         | `[379]`        | ``                            | `[To control components]` |
 | `[ Motor Driver]`                | `[1]`    | `[Yes]` | `[No]`       | `[91]`         | `[L298N]`                     | `[To drive both motors]`  |
 | `[DC Motors and wheel]`          | `[2]`    | `[Yes]` | `[No]`       | `[100]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
-| `[Battery Holder]`               | `[1]`    | `[Yes]` | `[No]`       | `[40]`         |                               |                           |
-| `[3.7V Batteris]`                | `[2]`    | `[Yes]` | `[No]`       | `[75]`         |                               |                           |
-| `[jumper wirse]`                 | `[40]`   | `[No]`  | `[Yes]`      | `[40]`         |
-| `[IR Sensor]`                    | `[2]`    | `[Yes]` | `[No]`       | `[300]`      
-| `[Ultrasonic Sensor]`            | `[1]`    | `[No]`  | `[Yes]`      | `[65]`
+| `[Battery Holder]`               | `[1]`    | `[Yes]` | `[No]`       | `[40]`         |                               | `[to hold the batteries]` |
+| `[3.7V Batteris]`                | `[2]`    | `[Yes]` | `[No]`       | `[75]`         |                               | `[Power Supply]`          |
+| `[jumper wirse]`                 | `[40]`   | `[No]`  | `[Yes]`      | `[40]`         |                               | `[Electrical Connections]`| 
+| `[IR Sensor]`                    | `[2]`    | `[Yes]` | `[No]`       | `[300]`        |                               | `[Path Detection]`        |
+| `[Ultrasonic Sensor]`            | `[1]`    | `[No]`  | `[Yes]`      | `[65]`         |                               | `[Object Detection]`      |
+| `[Purchased Extras]`             [ `[3]`    | `[No]`  | `[Yes]`      | `[800]'        |                               | `[Vehicle Body]`          |
+| **Total**                                                            | `[1890]`       |
+
 
 ## 11.2 Material Justification
  
@@ -478,48 +481,16 @@ Easy to replace or recharge
 It ensures the robot remains self-contained and mobile.
 
 
-## 11.3 Items You chose
-
-| Item                 | Why Needed               | Purchase Link | Latest Safe Date to Procure | Status       |
-| -------------------- | ------------------------ | ------------- | --------------------------- | ------------ |
-| `BO Motors + Wheels` | `Drive system for car`   | `robu.in`     | `15th April`                | `[Received]` |
-| `Buck Converter`     | `Stable power for ESP32` | `local store` | `before testing`            | `[Received]` |
-| `Li-ion Batteries`   | `Portable power`         | `local store` | `before testing`            | `Recieved`   |
-
-## 11.4 Budget Summary
-
-| Budget Item           | Estimated Cost              |
-| --------------------- | ---------------------------:|
-| Electronics           | `[400]`                     |
-| Mechanical parts      | `[200]`                     |
-| Fabrication materials | `[0 (Available on campus)]` |
-| Purchased extras      | `[0]`                       |
-| Contingency           | `[300]`                     |
-| **Total**             | `[900]`                     |
-
-## 11.5 Budget Reflection
+## 11.3 Budget Reflection
 
 If your cost is too high, what can be simplified, removed, substituted, or shared?
 
-**Response:**  
-
+Our cost is cheaper compared to big machines but even if its not affordable to all as our product is to be bought in bulk we can remodel the rc body using 3D printed bodies or a cheaper base for the rc body 
 ---
 
 # 12. Planning the Work
 
 ## 12.1 Team Working Agreement
-
-Write how your team will work together.
-
-Include:
-
-- how tasks are divided,
-- how decisions are made,
-- how progress will be checked,
-- what happens if a task is delayed,
-- how documentation will be maintained.
-
-**Response:**  
 
 
 ## 12.2 Task Breakdown
