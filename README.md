@@ -360,8 +360,8 @@ Insert a hand-drawn or software-made circuit diagram.
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Power source     | `9V Battery`                                                                                                                                      |                              
 | Voltage required | `3.3 to 5V for strike lite`                                                                                                                       |
-| Current concerns | `Speed is very high`                                                                                                                              |
-| Safety concerns  | `Using Pwm to set speed levels`                                                                                                                   |
+| Current concerns | `Speed is very high,+5V was connected to GND and grounds were not shared between battery and pico `                                                                                                                              |
+| Safety concerns  | `Using Pwm to set speed levels,Wires have been reconnected,Grounds are shared`                                                                                                                   |
 
 ---
 
