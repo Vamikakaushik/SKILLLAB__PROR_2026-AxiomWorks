@@ -64,8 +64,8 @@ By the final review, this README should clearly show:
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
 | `Vamika Kaushik` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `Param Anam`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
-| `Nandini Gupta` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
+| `Nandini Gupta`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| `Param Anam` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
 | `Ruchi Ahuja`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
 
 ## 1.3 Project Title
@@ -83,6 +83,10 @@ By the final review, this README should clearly show:
 
 ## 1.5 Expanded Project Idea
 
+This project is about an autonomous vehicle designed to detect and follow a predefined path that is usually a black line on a white surface. Our project uses
+sensors and microcontrollers like shrike lite and IR sensor for various processes. The core idea of this project is to read small RC chasis with Infrared sensors that read the contrast between the line and the background. These sensors send signals to shrike lite which processes the data and sens it to LN298 motor driver which runs the motors.
+
+This project blends concepts from robotics,embeded systems and control theory which makes it educational and practical. In future we are planning to add features like speed modes, wireless manual override via bluetooth for hybrid RC control. This project has real world relevance in places like warehouses, delivery robots and industrial transport system where line following logic is often used for navigation as it is more efficient.
 
 ---
 
