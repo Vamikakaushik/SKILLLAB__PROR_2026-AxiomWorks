@@ -55,7 +55,7 @@ By the final review, this README should clearly show:
 
 # 1. Team Identity
 
-## 1.1 Studio / Group Name
+## 1.1 Studio / Group Name: Axiom Works
 
 `Project^2`
 
@@ -63,8 +63,10 @@ By the final review, this README should clearly show:
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| `Gopalakrishnan` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `KAder Shaikh`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| `Vamika Kaushik` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
+| `Param Anam`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| `Nandini Gupta` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
+| `Ruchi Ahuja`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
 
 ## 1.3 Project Title
 
